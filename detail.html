@@ -7,7 +7,8 @@
 </head>
     <header id="header">
        
-        <img class="logo" src="assests/images/logo.png"  />
+        <a href="index.html">
+             <img class="logo" src="assests/images/logo.png"  /></a>
         <span><a href="login.html">Login</a></span>
     </header>
 
@@ -16,7 +17,23 @@
 <section id="hotel1">
             <img class="hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
         </section>
-        <a href="payment.html">Book Now</a>
+        <div id="booking">
+            <form action="payment.html">
+                <Label>Adults:</Label>
+                <input type="number" min="1"  placeholder="1" required><br>
+                <Label>Name:</Label>
+                <input type="text" required><br>
+                <Label>From date:</Label>
+                <input type="date" placeholder="dd-mm-yy"     required ><br>
+                <Label>To Date:</Label>
+                <input type="date" placeholder="dd-mm-yy"  required><br>
+                <Label>Total:</Label>
+                <input type="text"> <br>
+                <button type="submit">Book Now</button>
+              </div>
+              </form>
+        </div>
+
         <section id="Description">
             <h3>Raddison Blu Hotel</h3>
             <p>RATING</p>
