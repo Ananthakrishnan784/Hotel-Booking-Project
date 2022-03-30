@@ -5,6 +5,8 @@
 .place  {
     height: 150px;
     width: 150px;
+    padding: 4%;
+    border-radius: 25%;
 }
 .media{
     height: 20px;
@@ -13,3 +15,27 @@
 #paragraph > p {
     margin: 0%;
 }
+#header {
+    background-color: rosybrown;
+    
+}
+#footer  {
+    background-color: rosybrown;
+    
+}
+#search {
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    height: 380px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+   

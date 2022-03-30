@@ -13,3 +13,27 @@
     height: 500px;
     width: 500px;
 }
+#header {
+    background-color: rosybrown;
+    
+}
+#footer  {
+    background-color: rosybrown;
+}
+.hotel{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#booking {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom:1%;
+}
+#Description {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom:2%;
+    margin-top: 1%;
+
+}

@@ -12,4 +12,18 @@
 .hotels{
     height: 250px;
     width: 250;
+
+}
+#header {
+    background-color: rosybrown;
+}
+#footer  {
+    background-color: rosybrown;
+}
+.places {
+    
+    background-color: rgb(132,136,139);
+    width: 40%;
+    margin: 2%;
+    
 }
