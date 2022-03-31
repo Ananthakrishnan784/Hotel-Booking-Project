@@ -14,16 +14,32 @@
     width: 250;
 
 }
-#header {
-    background-color: rosybrown;
+.radisson{
+    display: flex;
+    height: 200px;
+    background-color: lightgrey;
+    width: 94%;
+    margin: 4%;
+
 }
-#footer  {
-    background-color: rosybrown;
-}
+
 .places {
     
     background-color: rgb(132,136,139);
     width: 40%;
     margin: 2%;
+
+   
     
+}
+#list > ul > li{
+    display: inline; 
+}
+ul > li >a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;   
+}
+#list{
+        text-align: center;
 }

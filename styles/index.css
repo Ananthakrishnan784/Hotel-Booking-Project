@@ -11,6 +11,8 @@
 .media{
     height: 20px;
     width: 22px;
+    float: right;
+    
 }
 #paragraph > p {
     margin: 0%;
@@ -21,6 +23,15 @@
 }
 #footer  {
     background-color: rosybrown;
+    background-color: rosybrown;
+    position: sticky;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    vertical-align: middle;
     
 }
 #search {
@@ -29,6 +40,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+        justify-content: center;
 }
 
 
@@ -38,4 +52,40 @@
     align-items: center;
     
 }
-   
+   #searching > input {
+    
+        background-color: #f1f1f1;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        width: 400px;
+        font-size: 16px;
+        padding: 10px;
+        
+   }
+   .login{
+    color: black;
+    float: right;
+    margin-right: 2%;
+    margin-top: 1.5%;
+   }
+   #view{
+    
+        text-align: center;
+        margin-bottom: 30px;
+   }
+   #view>a {
+    text-decoration: none;
+    color: black;
+   }
+   #Contact1 > a{
+    text-decoration: none;
+    color: black;   
+    margin-left: 40px;
+}
+ 
+#paragraph > p {
+    margin-bottom: 0%;
+    margin-top: 18%; 
+     vertical-align: middle;
+
+}
