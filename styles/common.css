@@ -9,23 +9,23 @@ html,body {
 body{
     font-family: 'Ubuntu', sans-serif;
 }
-#Contact1 > a{
+#footer a {
     text-decoration: none;
     color: black;   
-    margin-left: 40px;
+   
 }
  
-#paragraph > p {
-    margin-bottom: 0%;
-    margin-top: 18%; 
-    vertical-align: middle;
-
+#footer p {
+	align-self: flex-end;
 }
-.media{
-    height: 20px;
-    width: 22px;
-    float: right;
-    margin-right: 10px;
+.socials a {
+	display: inline;
+}
+.socials a img {
+	height: 20px;
+	width: 22px;
+
+    
 }
 .login{
     color: black;
@@ -35,11 +35,17 @@ body{
    }
    #header {
     background-color: rosybrown;
-    position: sticky;
+    display: flex;
+    position:fixed;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
 }
 #footer  {
     background-color: rosybrown;
-    background-color: rosybrown;
+    
     position: sticky;
     bottom: 0%;
     display: flex;

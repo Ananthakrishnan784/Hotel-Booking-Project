@@ -28,10 +28,26 @@
     background-color: rgb(132,136,139);
     width: 40%;
     margin: 2%;
+    display: flex;
+	flex-wrap: wrap;
+        flex: 1 0 45%;
+        margin: 2%;
+        background-color: rgb(132, 136, 139);
+        max-width: 40%;
+    }
+    .hotels{
+        width: 250px;
+        height: 25-px;
+       
+        
+    }
+
+     
+    
 
    
     
-}
+
 #list > ul > li{
     display: inline; 
 }
