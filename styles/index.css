@@ -1,120 +1,119 @@
-.logo{
-    height: 60px;
-    width:60px;
+body{
+    background-color: #e0e0e0;
+        height: 100%;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #searchBar input{
+        width: 24em;
+        padding: 10px;
+        border: 1px transparent;
+        border-radius: 12px;
+        font-size: 16px;
+        outline: none;
+        height: auto;
+        margin-top: 15px;
+
+    }
+        #searchBar{
+            background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+            min-height: 380px;
+            display: grid;
+            background-position: center;
+            background-size: cover;
+            place-items: center;
+            align-content: center;
+            width: 100%;
+            margin-top: -30px;
+        }
+        #cityCards {
+    display: flex;
+    flex-direction: center;
+    align-content: center;
+     padding: 3.5em 0;
+    justify-content: space-evenly;
+align-items: center;
 }
-.place  {
+#cityCards2 {
+  display: flex;
+  flex-direction: center;
+  align-content: center;
+   padding: 3.5em 0;
+  justify-content: space-evenly;
+align-items: center;
+}
+
+.cards{
     height: 150px;
     width: 150px;
-    padding: 4%;
     border-radius: 25%;
-}
-.media{
-    height: 20px;
-    width: 22px;
-    float: right;
-    
-}
-#paragraph > p {
-    margin: 0%;
-}
-
-    
-
-#search {
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
-    height: 380px;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-        justify-content: center;
-}
+    box-shadow:  10px 10px 10px grey;
+  }
 
-
-.cities{
+  .overlay{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-   #searching > input {
-    
-        background-color: #f1f1f1;
-        border: 1px solid transparent;
-        border-radius: 12px;
-        width: 400px;
-        font-size: 16px;
-        padding: 10px;
-        
-   }
-   .login{
-    color: black;
-    float: right;
-    margin-right: 2%;
-    margin-top: 1.5%;
-   }
-   #view{
-    
-        text-align: center;
-        margin-bottom: 30px;
-   }
-   #view>a {
-    text-decoration: none;
-    color: black;
-   }
-   #Contact1 > a{
-    text-decoration: none;
-    color: black;   
-    margin-left: 40px;
-}
- 
-#paragraph > p {
-    margin-bottom: 0%;
-    margin-top: 18%; 
-     vertical-align: middle;
+      width: 100%;
+      height: 100%;
+      font-size: 0;
+  }
+  .overlay:hover{
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0.5);
+      height: 150px;
+      width: 150px;
+      border-radius: 25%;
+  }
 
+#view{
+
+    text-align: center;
+    margin-bottom: 50px;
+    /* iska bhi */
 }
 
-.card-content {
-	width: 150px;
-	height: 150px;
-	border-radius: 25%;
-	box-shadow: 10px 10px 10px grey;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.overlay a {
-	color: white;
-}
-.overlay {
-	width: 150px;
-	height: 150px;
-	border-radius: 25%;
-	box-shadow: 10px 10px 10px grey;
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-.city-card-item {
-	margin: 4%;
-}
-.city-card-item:hover .card-content {
-	display: none;
-}
-.city-card-item:hover .overlay {
-	display: flex!important;
-	cursor: pointer;
-}
-.city-card-item p {
-	justify-self: center;
-	align-self: center;
-}
-.socials {
-	margin-right: 3%;
-}
+@media only screen and (min-width:576px) and ( max-width:768px) {
+
+
+  .cards{
+    height: 150px;
+    width: 150px;
+  }
+  #searchbarDiv{
+      min-height: 350px;
+    }
+    #cityCards{
+      display: grid;
+      grid-template-columns: 40% 40%;
+      grid-row-gap: 20px;
+      grid-column-gap:-30px;
+      margin-left: 50px;
+      width: 100%;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 576px){
+    #searchBar{
+      width: 100%;
+    }
+    #searchBar input {
+
+      width: 15em;
+    }
+    #search{
+      min-height: 200px;
+    }
+    #cityCards{
+
+      display: grid;
+      grid-row-gap: 20px;
+      }
+
+  }  
