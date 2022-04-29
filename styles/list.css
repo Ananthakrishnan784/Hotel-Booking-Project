@@ -2,16 +2,10 @@
     height: 60px;
     width:60px;
 }
-.media{
-    height: 20px;
-    width: 22px;
-}
-#paragraph > p {
-    margin: 0%;
-}
+
 .hotels{
     height: 250px;
-    width: 250;
+    width: 250px;
 
 }
 .radisson{
@@ -38,24 +32,15 @@
     .hotels{
         width: 250px;
         height: 25-px;
-       
-        
     }
-
-     
+   #list {
+       display: inline;
+       text-align: center;
+   }
     
 
    
     
 
-#list > ul > li{
-    display: inline; 
-}
-ul > li >a{
-    text-decoration: none;
-    color: black;
-    margin: 10px;   
-}
-#list{
-        text-align: center;
-}
+
+

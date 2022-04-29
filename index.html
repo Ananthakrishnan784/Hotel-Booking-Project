@@ -7,7 +7,7 @@
     
 </head>
 <body>
-    <div id="container">
+    <div class="container">
     <header id="header">
         <img class="logo" src="assests/images/logo.png"  />
         <span><a class="login" href="login.html">Login</a></span>
@@ -22,13 +22,22 @@
        
         <div class="cities">
             <a href="list.html">
-                <img class="place" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"> </a>
-            <img class="place" src=" https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
-            <img class="place" src=" https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg">
-            <img class="place" src=" https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg">
+                <div class="card-content" style="background-image:url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg');"></div>
+                        <div class="overlay" style="display: none; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg');"><a href="list.html">Delhi</a></div>
+                     
+                        <div class="card-content" style="background-image:url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg');"></div>
+                        <div class="overlay" style="display: none; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg');">Goa</div>
+                    </div>
 
-        </div> 
-        <section id="view">
+                    <div class="card-content" style="background-image:url('https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg');"></div>
+                    <div class="overlay" style="display: none; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg');">Hyderabad</div>
+
+                    <div class="card-content" style="background-image:url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg');"></div>
+                    <div class="overlay" style="display: none; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg');">Kolkata</div>
+
+                    
+
+                    <section id="view">
             <a href="#">View more >></a>
         </section>
         <footer id="footer">

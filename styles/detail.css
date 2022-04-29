@@ -2,27 +2,51 @@
     height: 60px;
     width:60px;
 }
-.media{
-    height: 20px;
-    width: 22px;
+header img {
+	margin-left: 1%;
 }
-#paragraph > p {
-    margin: 0%;
+footer{
+    padding: 0 2%;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
 }
-.hotel{
-    height: 500px;
-    width: 500px;
+.content img {
+	
+	height: 350px;
+}
+.content {
+	padding: 60px 0;
+}
+.form-item {
+	margin: 4% 8%;
+	display: flex;
+	justify-content: space-between;
 }
 
-.hotel{
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
+/* Preparing the container div for the carousel and form part */
+.payment-form {
+	border: 1px solid black;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-#booking {
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom:1%;
+/* To center the carousel and the form */
+.payment-form > div {
+	text-align: center;
+}
+form {
+	padding: 0 8%;
+}
+.form-item {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+/* Giving the input fields a width */
+.input {
+	width: 60%;
 }
 #Description {
     margin-left: 4%;

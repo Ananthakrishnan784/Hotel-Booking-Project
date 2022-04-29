@@ -75,3 +75,46 @@
      vertical-align: middle;
 
 }
+
+.card-content {
+	width: 150px;
+	height: 150px;
+	border-radius: 25%;
+	box-shadow: 10px 10px 10px grey;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.overlay a {
+	color: white;
+}
+.overlay {
+	width: 150px;
+	height: 150px;
+	border-radius: 25%;
+	box-shadow: 10px 10px 10px grey;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.city-card-item {
+	margin: 4%;
+}
+.city-card-item:hover .card-content {
+	display: none;
+}
+.city-card-item:hover .overlay {
+	display: flex!important;
+	cursor: pointer;
+}
+.city-card-item p {
+	justify-self: center;
+	align-self: center;
+}
+.socials {
+	margin-right: 3%;
+}
